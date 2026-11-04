@@ -6,7 +6,7 @@
 | **Commit analysed** | `cf0f187` (branch `main`) |
 | **Stack** | Next.js 16.2.7 (App Router), React 19.2.4, TypeScript |
 | **Report date** | 2026-11-03 |
-| **Authors** | `[CONFIRM: team member names]` |
+| **Authors** | `MAURO RIVERO FRANCO / RENE TREJO BORUNDA / YADIER GONZALEZ FLORES / JOHAN BERTRAND` |
 
 ## Summary
 
@@ -36,7 +36,7 @@ Key findings, in order of severity:
 | Sessions / OAuth 2.0 | Not used |
 | Third-party providers | None (no Auth0, Firebase, Google Sign-In) |
 
-**Why this approach.** It makes every step of authentication visible and runs with zero external accounts, cost or configuration, which suits a course project whose goal is to understand the request/response cycle: frontend validation → HTTP call → server verification → token returned → client stores it. `[CONFIRM: adjust to your team's actual reasoning / Activity 4 guide]`
+**Why this approach.** It makes every step of authentication visible and runs with zero external accounts, cost or configuration, which suits a course project whose goal is to understand the request/response cycle: frontend validation → HTTP call → server verification → token returned → client stores it.
 
 **Own vs third-party — trade-offs**
 
